@@ -31,6 +31,9 @@ Inhun's Shitty Image Searcher
 
 # Common Problems and Fixes:
 
+- Image results are posted randomly instead of in sequential order.
+// I intend to change this eventually once I stop being too lazy.
+
 
 
 
