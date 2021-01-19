@@ -25,3 +25,15 @@ Inhun's Shitty Image Searcher
 
 - If all is well and the bot shows online, run ".img" and a search term to start posting images. Repeat the command to get additional results from the same search term.
 // You can edit the "index.js" file to change the command prefix to anything that you want.
+
+
+
+
+# Common Problems and Fixes:
+
+
+
+
+# If you encounter any more problems or want to leave feedback, please file an issue on [My Github](https://github.com/Injuns4Trump/ISIS/) at https://github.com/Injuns4Trump/ISIS/
+
+# If you have the ability to fix any of these issues please feel free to make a pull request.
