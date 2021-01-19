@@ -18,6 +18,7 @@ client.on("message", function(message) {
 	var parts = message.content.split(" "); // Splits message into an array for every space, our layout: "<command> [search query]" will become ["<command>", "search query"]
 
 	/* Simple command manager */
+	// You can change the ".img" command to any command prefix that you want.
 	if (parts[0] === ".img") { // Check if first part of message is image command.
 
 		// Call the image function.
