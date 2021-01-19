@@ -1,5 +1,5 @@
 # ISIS
-Inhun's Shitty Image Searcher
+Inhun's Shitty Image Searcher - A simple Discord bot that posts images based on search results
 
 
 # Setup Guide:
