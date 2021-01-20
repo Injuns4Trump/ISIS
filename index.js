@@ -72,8 +72,16 @@ function image(message, parts) {
                 // I intend to change this to post the image results in sequential order like NotSoBot once I stop being lazy.
 		message.channel.send( urls[~~(Math.random() * 10)]  );
 		
-     		// Alternative option to send the first image result only. Uncomment the line below and comment the line above and vice versa to switch methods.
+     		
+		// Alternative option to send the first image result only. Uncomment the line below and comment all other send result options and vice versa to switch methods.
 		// message.channel.send( urls[0] );
+		
+		
+		// Another alternative option to send a random image result from the entire first page on Dogpile.com.
+		// This line picks a random link from urls and stores it in a variable called pick.
+		// var pick = urls[Math.floor(Math.random() * urls.length)];
+		// Send result. Uncomment the line above and line below and comment other send result lines to use this option.
+		// message.channel.send(pick);
 	});
 
 }
