@@ -41,8 +41,8 @@ function image(message, parts) {
 	    headers: {
 	        "Accept": "text/html",
 	        "User-Agent": "Chrome",
-            "Cookie": "ws_prefs=vr=1&af=None"
-            // ^ This cookie line enables NSFW search in all Discord channels. Remove or comment it to keep searches SFW.
+            	"Cookie": "ws_prefs=vr=1&af=None"
+            	// ^ This cookie line enables NSFW search in all Discord channels. Remove or comment it to keep searches SFW.
 	    },
 	};
 	request(options, function(error, response, responseBody) {
@@ -72,7 +72,7 @@ function image(message, parts) {
                 // I intend to change this to post the image results in sequential order like NotSoBot once I stop being lazy.
 		message.channel.send( urls[~~(Math.random() * 10)]  );
 		
-     		// Alternative method to send the first image result only. Uncomment the line below and comment the line above and vice versa to switch methods.
+     		// Alternative option to send the first image result only. Uncomment the line below and comment the line above and vice versa to switch methods.
 		// message.channel.send( urls[0] );
 	});
 
