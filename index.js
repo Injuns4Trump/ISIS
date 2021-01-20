@@ -72,8 +72,8 @@ function image(message, parts) {
                 // I intend to change this to post the image results in sequential order like NotSoBot once I stop being lazy.
 		message.channel.send( urls[~~(Math.random() * 10)]  );
 		
-     		  // Alternative method to send the first image result only. Uncomment the line below and comment the line above and vice versa to switch methods.
-		  // message.channel.send( urls[0] );
+     		// Alternative method to send the first image result only. Uncomment the line below and comment the line above and vice versa to switch methods.
+		// message.channel.send( urls[0] );
 	});
 
 }
