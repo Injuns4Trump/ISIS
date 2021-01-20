@@ -26,6 +26,9 @@ Inhun's Shitty Image Searcher - A simple Discord bot that posts images based on 
 - If all is well and the bot shows online, run ".img" and a search term to start posting images. Repeat the command to get additional results from the same search term.
 // You can edit the "index.js" file to change the command prefix to anything that you want.
 
+- To change result options, open "index.js" in a text editor and comment/uncomment the options that you want.
+// More detailed instructions are in the "index.js" comments.
+
 
 
 
