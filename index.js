@@ -73,7 +73,7 @@ function image(message, parts) {
 		message.channel.send( urls[~~(Math.random() * 10)]  );
 		
      		
-		// Alternative option to send the first image result only. Uncomment the line below and comment all other send result options and vice versa to switch methods.
+		// Send result. Alternative option to send the first image result only. Uncomment the line below and comment all other send result options and vice versa to switch methods.
 		// message.channel.send( urls[0] );
 		
 		
