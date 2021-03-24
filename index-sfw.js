@@ -41,7 +41,7 @@ function image(message, parts) {
 	    headers: {
 	        "Accept": "text/html",
 	        "User-Agent": "Chrome",
-               "Cookie": "ws_prefs=vr=1&af=None"
+                // "Cookie": "ws_prefs=vr=1&af=None"
             	// ^ This cookie line enables NSFW search in all Discord channels. Remove or comment it to keep searches SFW.
 	    },
 	};
