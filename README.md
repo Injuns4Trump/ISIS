@@ -13,8 +13,8 @@ Inhun's Shitty Image Searcher - A simple Discord bot that posts images based on 
 - Paste your bot token into the "index.js" file over the part that says "BOT_TOKEN_REPLACE_THIS_TEXT".
 // The bot token needs to be inside of the quotes so keep the quotes.
 
-- Open your Terminal/Command Prompt in the ISIS folder and type "node index.js" to launch it.
-// "node ." also works and is just a shortcut built into nodejs to save time.
+- Open your Terminal/Command Prompt in the ISIS folder and type "node index.js" or one of the other .js files to launch it depending which settings you want.
+// "node ." also works and is just a shortcut built into nodejs to save time but only works for the "index.js" file.
 
 - Go back to the General Information tab in the Discord Development Portal and make an invite link by copying your bot's Client ID tab and pasting it in the "client_id=" section of a link like this: https://discord.com/oauth2/authorize?client_id=xxxxxxxxxxxxxxxxxxxxx&scope=bot&permissions=52224
 
@@ -26,7 +26,7 @@ Inhun's Shitty Image Searcher - A simple Discord bot that posts images based on 
 - If all is well and the bot shows online, run ".img" and a search term to start posting images. Repeat the command to get additional results from the same search term.
 // You can edit the "index.js" file to change the command prefix to anything that you want.
 
-- To change result options, open "index.js" in a text editor and comment/uncomment the options that you want.
+- To change result options, open "index.js" in a text editor and comment/uncomment the options that you want or use one of the other pre-configured files with different settings.
 // More detailed instructions are in the "index.js" comments.
 
 
